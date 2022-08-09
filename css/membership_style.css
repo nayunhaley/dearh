@@ -162,7 +162,6 @@ body{
     margin-top: 176px;
 }
 #membership_mb img{
-    height: 406px;
     display: block;
     width: 100%; /*아래하단에 스크롤바 나오지 않게!!*/
 }
