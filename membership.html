@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>dear.h</title>
+
+    <!--구글웹폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!--라이브러리-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--탭제이쿼리-->
+    <script src="js/tap_jquery.js"></script>
+
+    <!--내가 만든 css-->
+    <link rel="stylesheet" href="css/membership_style.css">
+</head>
+
+<body>
+    <div id="top">
+        <h3><a href="#">신규회원이라면 누구나  <span class="yellow">반값습니다 50% OFF</span></a></h3>
+    </div><!--top-->
+    <div id="header">
+        <div id="header_inner" class="clearfix">
+            <h1 class="logo clearfix">
+            <img src="images/logo_header.png" alt="logo">
+            </h1><!--logo-->
+            <ul class="gnb clearfix">
+                <li class="shop"><a href="shop.html#link">SHOP</a>
+                <div class="sub">
+                  <div class="sub_inner">
+                    <ul class="sub_gnb">
+                      <li class="sg1"><a href="shop.html#link">ALL</a>
+                        <ul>
+                          <li><a href="shop.html#link">전제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg2"><a href="shop.html#link">BEST</a>
+                        <ul>
+                          <li><a href="shop.html#link">인기제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg3"><a href="shop.html#link">CATEGORY</a>
+                        <ul>
+                          <li><a href="shop.html#link">샴푸</a></li>
+                          <li><a href="shop.html#link">트리트먼트</a></li>
+                          <li><a href="shop.html#link">에센스</a></li>
+                          <li><a href="shop.html#link">두피케어</a></li>
+                          <li><a href="shop.html#link">바디케어</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg4"><a href="shop.html#mdpick_link">MD's  PICK</a>
+                        <div>
+                          <a href="shop.html#mdpick_link"><img src="images/mdpick1.jpg" alt="mdpick"></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div><!--sub_inner-->
+                </div><!--sub-->
+                </li>
+                <li><a href="event.html">EVENT</a></li>
+                <li><a href="brand.html">BRAND</a></li>
+                <li><a href="review.html">REVIEW</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="cscenter.html">CS CENTER</a></li>
+            </ul>
+            <ul class="icon clearfix">
+                <li><a href="#"><img src="images/user.png" alt="로그인"></a></li>
+                <li><a href="#"><img src="images/cart.png" alt="장바구니"></a></li>
+                <li><a href="#"><img src="images/delivery.png" alt="배송"></a></li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!--header-->
+       
+    <div id="membership_mb">
+        <img src="images/membership_main.jpg" alt="membership">
+    </div><!--shop_mb-->
+
+    <div id="wrapper">
+      <ul class="tabs clearfix">
+        <li><a href="#tab1">멤버십 등급 & 혜택</a></li>
+        <li><a href="#tab2">포인트 사용안내</a></li>
+      </ul> 
+
+      <!--탭 콘텐츠 영역 -->
+      <div class="tab_container">
+        <div id="tab1" class="tab_content">          <!--제이쿼리 선택자에 들어가는거라 이름변경안하는게 나음 모든 tab내용박스는 tab_content라는 동일한 클래스를 지니고 아이디는 다달라한다ㅡㅜ-->
+            <ul class="grade">
+                <li><img src="images/member_dia.jpg" alt="다이아"></li>
+                <li><img src="images/member_gold.jpg" alt="골드"></li>
+                <li><img src="images/member_sliver.jpg" alt="실버"></li>
+                <li><img src="images/member_green.jpg" alt="그린"></li>
+            </ul>
+            <p><a href="#">회원가입</a></p>
+        <div class="member_text">
+            <div class="title">
+                <img src="images/point1.jpg" alt="유의사항">
+            </div>
+           <ul class="content">
+            <li>1. 멤버십 혜택은 마케팅수신 동의 고객에게만 안내됩니다.</li>
+            <li>‘홈>마이페이지>내 정보 관리>마케팅 수신동의’에서 설정가능 바로가기 <br>
+                (앱푸시 동의 : APP > 환경설정 > PUSH 알람 수신 동의에서 설정가능)</li>
+            <li>2. 회원 등급은 매월 초 구매 실적에 따라 산정됩니다.</li>
+            <li><span>3. 최근 1년간 이용 이력이 없을 경우 전환과 함께 보유한 모든 포인트가 자동 소멸 됩니다.</span></li>
+           </ul> 
+        </div><!--member_text-->
+        
+        </div><!--tab1-->
+
+
+
+        <div id="tab2" class="tab_content">
+          <div class="point_text1">
+            <div class="title">
+                 <img src="images/point2.jpg" alt="유의사항">
+             </div>
+            <ul class="content">
+             <li>디어에이치의 DH 포인트는 온라인 쇼핑몰에서 제품 구매시 적립됩니다.</li>
+             <li>DH 포인트로 즐기는 다양한 혜택을 놓치지 마세요.</li>
+            </ul> 
+         </div><!--point_text1-->
+         <div class="point_text2">
+             <div class="title">
+                  <img src="images/point3.jpg" alt="유의사항">
+              </div>
+             <ul class="content">
+              <li>1. 등급에 따라 차등 적립됩니다.</li>
+              <li>2. 온라인몰에서 제품 구매 후 익일에 적립됩니다.</li>
+              <table cellspacing="0">
+                 <tr>
+                     <th>구분</th>
+                     <th>다이아몬드</th>
+                     <th>골드</th>
+                     <th>실버 & 그린</th>
+                 </tr>
+                 <tr>
+                     <th>포인트적립</th>
+                     <td>총 구매 금액의 <span class="red">5%</span></td>
+                     <td>총 구매 금액의 <span class="red">3%</span></td>
+                     <td>총 구매 금액의 <span class="red">2%</span></td>
+                 </tr>
+             </table>
+             </ul> 
+          </div><!--point_text2-->
+          <div class="point_text3">
+             <div class="title">
+                  <img src="images/point4.jpg" alt="유의사항">
+              </div>
+             <ul class="content">
+              <li>1. 3,000포인트 이상 보유시 사용 가능합니다. (1포인트 = 1원)</li>
+              <li>2. 포인트 사용시 교환 및 환불 불가합니다.</li>
+              <li>3. 포인트는 정상가 제품에 한하여 사용 가능합니다. (할인된 제품 포인트 사용불가)</li>
+             </ul> 
+          </div><!--point_text3-->
+          <div class="point_text4">
+             <div class="title">
+                  <img src="images/point5.jpg" alt="유의사항">
+              </div>
+             <ul class="content">
+              <li>1. 최근 1년간 구매가 없을 경우, 보유한 모든 포인트가 자동 소멸 됩니다.</li>
+              <li>2. App(모바일앱)설치 및 앱푸시 동의를 해주시면, 소멸 약 1달전 사전안내를 받으실 수 있습니다. 그 외, 광고/정보성 알림을 위해 SMS / 이메일 수신동의 필수  </li>
+              <li>(‘홈 > 마이페이지 > 내 정보 관리 > 회원정보 / 배송지 변경’ 에서 수정 가능)</li>
+             </ul> 
+          </div><!--point_text4-->
+        </div><!--tab2-->
+
+        <div id="tab3" class="tab_content">
+          <ul>
+            <li>
+                <a href="#"><img src="images/endevent_1.jpg" alt="종료된1"></a>
+                <p>2022.07.01 ~ 2022.07.30</p>
+            </li>
+            <li>
+                <a href="#"><img src="images/endevent_2.jpg" alt="종료된2"></a>
+                <p>2022.05.01 ~ 2022.05.31</p>
+            </li>
+        </ul>    
+        <ul>
+            <li>
+                <a href="#"><img src="images/endevent_3.jpg" alt="종료된3"></a>
+                <p>2022.03.01 ~ 2022.03.31</p>
+            </li>
+            <li>
+                <a href="#"><img src="images/endevent_4.jpg" alt="종료된4"></a>
+                <p>2022.02.28 ~ 2022.02.28
+                </p>
+            </li>
+        </ul>
+          
+         </div><!--tab3-->
+      </div><!--tab-container-->
+    </div><!--wrapper-->
+
+    
+      <div id="footer">
+        <div id="footer_inner">
+          <h1><img src="images/f_logo.png" alt="푸터로고"></h1>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li>|</li>
+            <li><a href="#">이용약관</a></li>
+            <li>|</li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li>|</li>
+            <li><a href="#">회원혜택</a></li>
+            <li>|</li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+          <p>
+            상호명 : 디어에이치 주식회사 &nbsp; 대표 : 고나윤 &nbsp; 이메일 주소 : HELP@dear_h.com  &nbsp; 통신판매업신고번호 : 제 2022-부산중구-8332호<br>
+            사업자등록번호 : 010-82-82795 [사업자정보확인]  &nbsp; 주소 : 부산광역시 중구 중앙대로 26 10층 (중앙동6가 12) &nbsp;  우 : 48942<br>
+            개인정보관리자 : 헤일리 팩스번호 : 051-1234-5678 &nbsp; 고객센터 : <span>1577-1004</span> &nbsp; 평일 오전 10시 ~ 오후6시 ( 점심 1시 ~ 2시 )<br>
+            copyright ⓒ www.dear_h.com all rights reserved.
+          </p>
+        </div><!--footer_inner-->
+      </div><!--footer-->
+
+      
+      <!---Swiper JS --->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+      <!-- Initialize Main Swiper -->
+      <script>
+        var swiper = new Swiper(".mb", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+         
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          },
+          
+          autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+          },
+          loop: true,
+        });
+      </script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- nowevnet Swiper -->
+      <script>
+        var swiper = new Swiper(".now", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+          el: ".swiper-pagination",
+        },
+        });
+      </script>
+
+      <!-- bestproduct Swiper-->
+      <script>
+         var swiper = new Swiper(".card", {
+          
+          autoplay: {
+            delay: 3000,
+          /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
+            disableOnInteraction: false,
+         },
+          loop: true,
+          slidesPerView: 4,
+          centeredSlides:true,
+         });//지우면 안되요!
+
+</script>
+</body>
+</html>

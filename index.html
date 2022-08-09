@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>dear.h</title>
+
+    <!--구글웹폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+     
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    
+    <!-- Link Swiper's CSS -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--라이브러리-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--내가 만든 제이쿼리 반드시-->
+    <script src="js/jquery.js"></script>
+
+    <!--best swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!--popup제이쿼리-->
+    <script src="js/popup.js"></script>
+
+    <!--내가 만든 css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="top">
+        <h3><a href="#">신규회원이라면 누구나  <span class="yellow">반값습니다 50% OFF</span></a></h3>
+    </div><!--top-->
+    <div id="header">
+        <div id="header_inner" class="clearfix">
+            <h1 class="logo clearfix">
+            <img src="images/logo_header.png" alt="logo">
+            </h1><!--logo-->
+            <ul class="gnb clearfix">
+                <li class="shop"><a href="shop.html#link">SHOP</a>
+                <div class="sub">
+                  <div class="sub_inner">
+                    <ul class="sub_gnb">
+                      <li class="sg1"><a href="shop.html#link">ALL</a>
+                        <ul>
+                          <li><a href="shop.html#link">전제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg2"><a href="#">BEST</a>
+                        <ul>
+                          <li><a href="shop.html#link">인기제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg3"><a href="shop.html#tab3">CATEGORY</a>
+                        <ul>
+                          <li><a href="shop.html#link">샴푸</a></li>
+                          <li><a href="shop.html#link">트리트먼트</a></li>
+                          <li><a href="shop.html#link">에센스</a></li>
+                          <li><a href="shop.html#link">두피케어</a></li>
+                          <li><a href="shop.html#link">바디케어</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg4"><a href="#">MD's  PICK</a>
+                        <div>
+                          <a href="shop.html#mdpick_link"><img src="images/mdpick1.jpg" alt="mdpick"></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div><!--sub_inner-->
+                </div><!--sub-->
+                </li>
+                <li><a href="event.html">EVENT</a></li>
+                <li><a href="brand.html">BRAND</a></li>
+                <li><a href="review.html">REVIEW</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="cscenter.html">CS CENTER</a></li>
+            </ul>
+            <ul class="icon clearfix">
+                <li><a href="#"><img src="images/user.png" alt="로그인"></a></li>
+                <li><a href="#"><img src="images/cart.png" alt="장바구니"></a></li>
+                <li><a href="#"><img src="images/delivery.png" alt="배송"></a></li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!--header-->
+       
+    <div class="swiper mb">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide bg1">
+          </div>
+          <div class="swiper-slide bg2">
+            <p class="moreview moreview2"><a href="event.html">MORE VIEW <img src="images/arrow_mv.png" alt="arrow"></a></p>
+          </div>
+          <div class="swiper-slide bg3">
+            <p class="moreview moreview3"><a href="event.html">MORE VIEW <img src="images/arrow_mv.png" alt="arrow"></a></p>
+          </div>
+          <div class="swiper-slide bg4">
+            <p class="moreview moreview4"><a href="event.html">MORE VIEW <img src="images/arrow_mv.png" alt="arrow"></a></p>
+          </div><!--swiper-slide-->
+        </div><!--swiper-->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div><!--swiper-->
+  
+      <div id="category">
+        <img src="images/category.jpg" alt="category">
+        <ul class="list clearfix">
+          <li class="list_s"><a href="shop.html#link"></a></li>
+          <li class="list_b"><a href="shop.html#link"></a></li>
+          <li class="list_sc"><a href="shop.html#link"></a></li>
+          <li class="list_h"><a href="shop.html#link"></a></li>
+        </ul>
+      </div><!--category-->
+
+      <div id="timesale">
+        <ul id="timesale_inner" >
+          <li class="time1">
+            <div class="sec7-text-box time_text">
+            <p><img src="images/timer.png" alt="timer"> 타임세일 혜택 남은시간</p>
+            <div class="time font40">
+              <div>
+                <span class="hours"></span>
+                <h4 class="t_h">Hours</h4>
+              </div>
+              <span class="col">:</span>
+              <div>
+                <span class="minutes"></span>
+                <h4 class="t_m">Minutes</h4>
+              </div>
+              <span class="col">:</span>
+              <div>
+                <span class="seconds"></span>
+                <h4 class="t_s">Seconds</h4>
+              </div>
+            </div>
+          </li>
+          <li class="time2">
+            <a href="event.html"><img src="images/timesale_img.jpg" alt="time_img"></a>
+          </li>
+          <li class="time3">
+            <img src="images/timesale_text.png" alt="">
+            <p class="shop">
+              <a href="event.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a>
+            </p>
+          </li>
+          </ul>
+        </div>
+      
+
+      <div id="nowevent">
+        <!-- Swiper -->
+      <div class="swiper now">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="event.html"><img src="images/nowevent1.jpg" alt="now1"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="event.html"><img src="images/nowevent2.jpg" alt="now2"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="event.html"><img src="images/nowevent3.jpg" alt="now3"></a>
+          </div>
+        </div><!--wrapper-->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div><!--nowevent-->
+
+      <div id="best">
+        <h1></h1> 
+        <h1><img data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" src="images/bestproduct_text.png" alt="best_t"></h1>
+        <h2></h2>
+        <div class="swiper card"><!--swiper는 필수 클래스, 그 옆의 클래스는 보조 클래스-->
+            <div class="swiper-wrapper"><!--swiper-wrapper는 필수 클래스-->
+                <div class="swiper-slide">
+                    <!--swiper-slide는 필수 클래스-->
+                    <img src="images/bodysc.png" alt="메인배너1">
+                    <div class="text">
+                      <h1>BEST 저자극 바디스크럽<br>
+                          데일리 리프레싱</h1>
+                      <h4>대나무 & 그린티 스크럽</h4>
+                      <p class="b_shop"><a href="shop.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a></p>
+                    </div>
+                </div>    
+                <div class="swiper-slide">
+                    <img src="images/tonic.png" alt="메인배너2">
+                    <div class="text">
+                      <h1>BEST 두피청정케어 <br>
+                          스컬프 스크럽 프레쉬 스케일러 </h1>
+                      <h4>저자극 두피각질 제거</h4>
+                      <p class="b_shop"><a href="shop.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/shampoo2.png" alt="메인배너3">
+                    <div class="text">
+                      <h1>BEST 두피민감성 완화 <br>
+                      밤부[대나무] 샴푸 </h1>
+                      <h4>대나무 두피진정 샴푸</h4>
+                      <p class="b_shop"><a href="shop.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a></p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/bodywash.png" alt="메인배너4">
+                    <div class="text">
+                      <h1>BEST 릴리프 & 모이스처 <br>
+                         데일리 힐링 바디워시</h1>
+                      <h4>썬트리 & 라임</h4>
+                      <p class="b_shop"><a href="shop.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a></p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/shampoo1.png" alt="메인배너5">
+                    <div class="text">
+                      <h1>BEST 탈모증상완화 <br>
+                        썬트리 샴푸 </h1>
+                      <h4>편백나무 천연 탈모샴푸</h4>
+                      <p class="b_shop"><a href="shop.html">SHOP <img src="images/shop_arrow.png" alt="s_arrow"></a></p>
+                    </div>
+                </div>
+            </div><!--swiper wrapper-->  
+        </div><!--swiper card--> 
+      </div><!--best-->
+
+      <div id="brandfilm">
+        <div id="brandfilm_inner">
+          <div class="b_f_t3"><img data-aos="slide-right" data-aos-duration="2000" data-aos-delay="100" src="images/b_f_t3.png" alt="t3"></div>
+          <div class="b_f_t2"><img data-aos="slide-right" data-aos-duration="2000" data-aos-delay="200" src="images/b_f_t2.png" alt="t2"></div>
+          <div class="b_f_t1"><img data-aos="slide-right" data-aos-duration="2000" data-aos-delay="300" src="images/b_f_t1.png" alt="t1"></div>
+          <div class="b_f_video">
+            <div id="v_container">
+              <p><a href="#none"><img src="images/video.jpg" alt="셔틀버스안내"></a></p>
+            </div><!--v_container-->
+            <div class="popup">
+              <div class="popup_box">
+                <iframe width="1320" height="742.5" src="https://www.youtube.com/embed/vkwSX7rouo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>
+                    <a href="#" class="close">X</a>
+                </p>
+              </div><!--popup_box-->
+            </div><!--popup-->
+            </div><!--b_f_video-->
+          
+
+        </div><!--brandfilm_inner-->
+      </div><!--brandfilm-->
+
+
+      <div id="green_phy">
+        <h1>GREEN PHYTONCIDE</h1>
+      </div><!--green_phy-->
+      <div id="magazine">
+        <div id="magezine_inner">
+          <div class="m1">
+            <a href="shop.html"><img data-aos="fade-down" data-aos-duration="2000" data-aos-delay="100" src="images/m_bestproduct.png" alt=""></a>
+          </div>
+          <div class="m2">
+            <a href="brand.html"><img data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200" src="images/m_brandintro.png" alt=""></a>
+          </div>
+          <div class="m3">
+            <a href="review.html"><img data-aos="fade-downt" data-aos-duration="2000" data-aos-delay="300" src="images/m_bestreview.png" alt=""></a>
+          </div>
+          <div class="m4">
+            <a href="membership.html"><img data-aos="fade-down" data-aos-duration="2000" data-aos-delay="400" src="images/m_membership.png" alt=""></a>
+          </div>
+        </div><!--magazine_inner-->
+      </div><!--magazine-->
+
+      <div id="instar_title">
+      </div>
+      <div id="instar_img">
+        <h2><a href="#">@dear.h_official</a></h2>
+        <ul>
+          <li><a href="https://www.instagram.com/p/Cg0vmKOLLSK/?utm_source=ig_web_copy_link" target="_blank"><img src="images/instar_1.jpg" alt="인스타1"></a></li>
+          <li><a href="https://www.instagram.com/p/Cg0ub0uLWuD/?utm_source=ig_web_copy_link" target="_blank"><img src="images/instar_2.jpg" alt="인스타2"></a></li>
+          <li><a href="https://www.instagram.com/p/Cg0lF2vhIiU/?utm_source=ig_web_copy_link" target="_blank"><img src="images/instar_3.jpg" alt="인스타3"></a></li>
+        </ul>
+      </div><!--instar_img-->
+      
+      <div id="button">
+        
+      </div><!--button-->
+
+      <div id="footer">
+        <div id="footer_inner">
+          <h1><img src="images/f_logo.png" alt="푸터로고"></h1>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li>|</li>
+            <li><a href="#">이용약관</a></li>
+            <li>|</li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li>|</li>
+            <li><a href="#">회원혜택</a></li>
+            <li>|</li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+          <p>
+            상호명 : 디어에이치 주식회사 &nbsp; 대표 : 고나윤 &nbsp; 이메일 주소 : HELP@dear_h.com  &nbsp; 통신판매업신고번호 : 제 2022-부산중구-8332호<br>
+            사업자등록번호 : 010-82-82795 [사업자정보확인]  &nbsp; 주소 : 부산광역시 중구 중앙대로 26 10층 (중앙동6가 12) &nbsp;  우 : 48942<br>
+            개인정보관리자 : 헤일리 팩스번호 : 051-1234-5678 &nbsp; 고객센터 : <span>1577-1004</span> &nbsp; 평일 오전 10시 ~ 오후6시 ( 점심 1시 ~ 2시 )<br>
+            copyright ⓒ www.dear_h.com all rights reserved.
+          </p>
+        </div><!--footer_inner-->
+      </div><!--footer-->
+
+      
+      <!---Swiper JS --->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      
+      <!-- Initialize Main Swiper -->
+      <script>
+        var swiper = new Swiper(".mb", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+         
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          },
+          
+          autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+          },
+          loop: true,
+        });
+      </script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- nowevnet Swiper -->
+      <script>
+        var swiper = new Swiper(".now", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+          el: ".swiper-pagination",
+        },
+        });
+      </script>
+
+      <!-- bestproduct Swiper-->
+      <script>
+         var swiper = new Swiper(".card", {
+          
+          autoplay: {
+            delay: 3000,
+          /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
+            disableOnInteraction: false,
+         },
+          loop: true,
+          slidesPerView: 4,
+          centeredSlides:true,
+         });//지우면 안되요!
+
+</script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1500">
+    <title>dear.h</title>
+
+    <!--구글웹폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!--라이브러리-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <!--aos CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--모달팝업 제이쿼리-->
+    <script src="js/popup_review.js"></script>
+
+    <!--내가 만든 css-->
+    <link rel="stylesheet" href="css/cscenter_style.css">
+</head>
+
+<body>
+    <div id="top">
+        <h3><a href="#">신규회원이라면 누구나  <span class="yellow">반값습니다 50% OFF</span></a></h3>
+    </div><!--top-->
+    <div id="header">
+        <div id="header_inner" class="clearfix">
+            <h1 class="logo clearfix">
+            <img src="images/logo_header.png" alt="logo">
+            </h1><!--logo-->
+            <ul class="gnb clearfix">
+                <li class="shop"><a href="shop.html#link">SHOP</a>
+                <div class="sub">
+                  <div class="sub_inner">
+                    <ul class="sub_gnb">
+                      <li class="sg1"><a href="shop.html#link">ALL</a>
+                        <ul>
+                          <li><a href="shop.html#link">전제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg2"><a href="shop.html#link">BEST</a>
+                        <ul>
+                          <li><a href="shop.html#link">인기제품</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg3"><a href="shop.html#link">CATEGORY</a>
+                        <ul>
+                          <li><a href="shop.html#link">샴푸</a></li>
+                          <li><a href="shop.html#link">트리트먼트</a></li>
+                          <li><a href="shop.html#link">에센스</a></li>
+                          <li><a href="shop.html#link">두피케어</a></li>
+                          <li><a href="shop.html#link">바디케어</a></li>
+                        </ul>
+                      </li>
+                      <li class="sg4"><a href="shop.html#mdpick_link">MD's  PICK</a>
+                        <div>
+                          <a href="shop.html#mdpick_link"><img src="images/mdpick1.jpg" alt="mdpick"></a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div><!--sub_inner-->
+                </div><!--sub-->
+                </li>
+                <li><a href="event.html">EVENT</a></li>
+                <li><a href="brand.html">BRAND</a></li>
+                <li><a href="review.html">REVIEW</a></li>
+                <li><a href="membership.html">MEMBERSHIP</a></li>
+                <li><a href="cscenter.html">CS CENTER</a></li>
+            </ul>
+            <ul class="icon clearfix">
+                <li><a href="#"><img src="images/user.png" alt="로그인"></a></li>
+                <li><a href="#"><img src="images/cart.png" alt="장바구니"></a></li>
+                <li><a href="#"><img src="images/delivery.png" alt="배송"></a></li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!---------------------------------------------------------------------header-->
+       
+    <div id="cs_mb">
+        <img src="images/cscenter_main.jpg" alt="cscenter">
+    </div><!--cscenter_mb-->
+    
+    <div id="call">
+        <ul>
+            <li class="call1"><img src="images/cs_number.jpg" alt="고객센터"></li>
+            <li class="call2"><a href="#"><img src="images/cs_inquire.jpg" alt="1:1"></a></li>
+            <li class="call3"><a href="#"><img src="images/cs_kakao.jpg" alt="카카오"></a></li>
+        </ul>
+    </div>
+
+    <div id="question">
+        <ul class="list clearfix">
+            <li>
+                <a href="#"><img src="images/cs_q1.png" alt="q1"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/cs_q2.png" alt="q2"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/cs_q3.png" alt="q3"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/cs_q4.png" alt="q4"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/cs_q5.png" alt="q5"></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/cs_q6.png" alt="q6"></a>
+            </li>
+        </ul>
+    </div><!--question-->
+    <div id="last">
+        <div class="video">
+          <video autoplay muted loop width=100% src="media/cs_center.mp4"></video>
+        </div>
+        <ul class="notice">
+            <li class="border">
+              <ul class="title">
+                <li><h1>공지사항</h1></li>
+                <li><a href="#"><h4>더보기 <img src="images/notice_arrow.png" alt="#"></h4></a></li>
+              </ul>
+            </li>
+            <li class="border">
+              <ul class="title">
+                <li><a href="#"><h2>디어에이치 공식몰 개인정보처리방침 일부가 변경됩니다.</h2></a></li>
+                <li><p>22.07.23</p></li>
+              </ul>
+            </li>
+            <li class="border">
+              <ul class="title">
+                <li><a href="#"><h2>6월 디어에이치 베스트리뷰 3인 발표</h2></a></li>
+                <li><p>22.07.01</p></li>
+              </ul>
+            </li>
+            <li class="border">
+              <ul class="title">
+                <li><a href="#"><h2>어린이날 연휴 배송 및 고객센터 축소 운영안내</h2></a></li>
+                <li><p>22.04.28</p></li>
+              </ul>
+            </li>
+            <li class="border">
+              <ul class="title">
+                <li><a href="#"><h2>[서버점검안내] 2022.03.01 화요일 새벽 1시~3시 점검 진행</h2></a></li>
+                <li><p>22.02.20</p></li>
+              </ul>
+        </ul><!--notice-->
+    </div><!--last-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+        <div id="footer_inner">
+          <h1><img src="images/f_logo.png" alt="푸터로고"></h1>
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li>|</li>
+            <li><a href="#">이용약관</a></li>
+            <li>|</li>
+            <li><a href="#">개인정보취급방침</a></li>
+            <li>|</li>
+            <li><a href="#">회원혜택</a></li>
+            <li>|</li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+          <p>
+            상호명 : 디어에이치 주식회사 &nbsp; 대표 : 고나윤 &nbsp; 이메일 주소 : HELP@dear_h.com  &nbsp; 통신판매업신고번호 : 제 2022-부산중구-8332호<br>
+            사업자등록번호 : 010-82-82795 [사업자정보확인]  &nbsp; 주소 : 부산광역시 중구 중앙대로 26 10층 (중앙동6가 12) &nbsp;  우 : 48942<br>
+            개인정보관리자 : 헤일리 팩스번호 : 051-1234-5678 &nbsp; 고객센터 : <span>1577-1004</span> &nbsp; 평일 오전 10시 ~ 오후6시 ( 점심 1시 ~ 2시 )<br>
+            copyright ⓒ www.dear_h.com all rights reserved.
+          </p>
+        </div><!--footer_inner-->
+      </div><!--footer-->
+    
+      <script>
+        AOS.init();
+        </script>
+</body>
+</html>
