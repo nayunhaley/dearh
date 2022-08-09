@@ -240,6 +240,7 @@ transform: translateY(-10px) rotate(-135deg);
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+        display: block;
 }
 
 .sec4 h1{
