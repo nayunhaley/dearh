@@ -156,6 +156,7 @@ transform: translateY(-10px) rotate(-135deg);
 
 .sec1{
     background-image: url(../images/brand_1.jpg);
+    background-repeat: no-repeat;
 }
 .sec1 h1, h3{
     font-family: 'Arima', cursive;
@@ -178,6 +179,7 @@ transform: translateY(-10px) rotate(-135deg);
 
 .sec2{
     background-image: url(../images/brand_2.jpg);
+    background-repeat: no-repeat;
     position: relative;
 }
 .t_right{
@@ -205,6 +207,7 @@ transform: translateY(-10px) rotate(-135deg);
 
 .sec3{
     background-image: url(../images/brand_3.jpg);
+    background-repeat: no-repeat;
     position: relative;
 }
 
