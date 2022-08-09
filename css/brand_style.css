@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/*
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Arima', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #111;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header{
+    position: fixed;
+    top:2%;
+    left:0;
+    width:100%;
+    z-index: 90;
+    text-align: center;
+}
+
+
+/*햄버거 버튼모양*/
+.slide-open{
+    position:fixed;
+    top:20px;
+    right:28px;
+    width:50px;
+    height:50px;
+    cursor:pointer;
+    z-index:99;
+}
+.burgur{
+right: 50%;
+top: 50%;
+transform: translate(50%,-50%);
+position: absolute;
+width: 30px;
+height: 2px;
+background: #fff;
+}
+
+.burgur .top-line{
+width: 30px;
+height: 2px;
+background-color: #fff;
+bottom: -10px;
+content: '';
+position: absolute;
+right: 0;
+-webkit-transition:  -webkit-transform .3s;
+transition: transform .3s;
+}
+
+.burgur .bot-line {
+width: 30px;
+height: 2px;
+background-color: #fff;
+top: -10px;
+content: '';
+position: absolute;
+right: 0;
+-webkit-transition:  -webkit-transform .3s;
+transition: transform .3s;
+}
+
+.burgur.on {
+width: 0;
+}
+.burgur.on .bot-line {
+-webkit-transform: translateY(5px) rotate(135deg);
+transform: translateY(10px) rotate(135deg);
+}
+.burgur.on .top-line{
+-webkit-transform: translateY(-5px) rotate(-135deg);
+transform: translateY(-10px) rotate(-135deg);
+}
+#fp-nav.right{
+    left: 17px;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: #fff;
+}
+
+        /*메뉴부분 모양*/
+		.slide{
+			padding-top:50px;
+			width:12%;/*이 너비에 따라 보이는 부분이 변화함*/
+			position:fixed;
+			right:-100%;
+			top:0;
+			bottom:0;
+			-webkit-transition: right .3s;
+			-moz-transition: right .3s;
+			-ms-transition: right .3s;
+			-o-transition: right .3s;
+			transition: right .3s;
+			background-color: #00201a;
+		}
+		.slide-title{
+			width:100%;
+			height:100px;
+			font-size:42px;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			border-bottom:1px solid #e1e1e1;
+		}
+		.slide.on{
+			right:0;
+		} 
+		.slide ul li{
+			display:inline-block;
+			width:100%;
+			padding:22px;
+            color: #fff;
+            text-align: left;
+            font-size: 18px;
+		}
+		.slide ul li:nth-child(1){
+            padding-top: 80px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec1{
+    background-image: url(../images/brand_1.jpg);
+}
+.sec1 h1, h3{
+    font-family: 'Arima', cursive;
+}
+.sec1 h1{
+    font-size: 80px;
+    font-family: 'Arima', cursive;
+    padding-bottom: 40px;
+}
+.sec1 h3{
+    font-size: 28px;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+.sec1 p{
+    font-size: 18px;
+}
+
+
+
+.sec2{
+    background-image: url(../images/brand_2.jpg);
+    position: relative;
+}
+.t_right{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    text-align: left;
+}
+.sec2 h1{
+    font-size: 65px;
+    font-family: 'Arima', cursive;
+    padding-bottom: 20%;
+}
+.sec2 h2{
+    font-size: 35px;
+    font-family: 'Arima', cursive;
+    padding-bottom: 2%;
+}
+.sec2 p{
+    padding-bottom: 15%;
+    font-size: 18px;
+}
+
+
+
+.sec3{
+    background-image: url(../images/brand_3.jpg);
+    position: relative;
+}
+
+.t_left{
+    text-align: left;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    color: #fff;
+}
+.sec3 h1{
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.sec3 h2{
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 45px;
+    padding-bottom: 130px;
+}
+.sec3 p{
+    font-size: 18px;
+}
+
+
+.sec4{background-image: url(../images/brand_4.jpg);
+      position: relative;
+}
+
+.sec4 h1{
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.t_right2{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    text-align: left;
+}
+.sec4 h2{
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 45px;
+    padding-bottom: 130px;
+}
+
+.sec4 p{
+    font-size: 18px;
+}
+
+.sec5{
+    background-image: url(../images/brand_5.jpg);
+    position: relative;
+}
+.sec5 img{
+    width: 100%;
+}
+
+
+body{text-align:center;}
+
+
+/*footer*/
+
+.footer{
+	background:#00201a;
+	color:#ccc;}
+
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+#footer_inner h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#footer_inner ul{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+#footer_inner ul li{
+    padding-right: 35px;
+}
+#footer_inner ul li:nth-child(9){
+    padding-right: 0;
+}
+#footer_inner p{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#footer_inner p span{
+    font-size: 18px;
+}
