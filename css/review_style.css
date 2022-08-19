@@ -50,7 +50,7 @@ body{
 
 /*header*/
 #header{
-    background-color: rgba(0,32,26,0.9);  /*#06382f*/
+    background-color: rgba(6,56,47,0.9);  /*#06382f*/
     color: #fff;
     height: 138px;
     position: fixed;
@@ -264,7 +264,7 @@ body{
 }
 /*footer*/
 #footer{
-    background-color: #00201a;
+    background-color: #06382f;
     color: #ccc;
 }
 #footer_inner{

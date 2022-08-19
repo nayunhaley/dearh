@@ -50,7 +50,7 @@ body{
 
 /*header*/
 #header{
-    background-color: rgba(0,32,26,0.9);  /*#06382f*/
+    background-color: rgba(6,56,47,0.9);  /*#06382f*/
     color: #fff;
     height: 138px;
     position: fixed;
@@ -189,7 +189,7 @@ body{
     float: left;
     width: 420px;
     line-height: 66px; /*세로가운데정렬하려면 높이주지말고 line-height로*/
-    border-bottom: 4px solid #00201a;
+    border-bottom: 4px solid #06382f;
     margin-right: 30px;
 }
 .tabs li:nth-child(3){
@@ -199,7 +199,7 @@ body{
     color: #fff;
     font-weight: bold;
     font-size: 25px;
-    background-color: #00201a;
+    background-color: #06382f;
 }/*active라는 클래스는 클릭을 하는 tabs안의 li에 나올 스타일을 꾸며준다.*/
 
 .tab_content{
@@ -319,12 +319,12 @@ body{
 
 .portfolio_filter .active{
     background-color: #fff;
-    color: #00201a;
+    color: #06382f;
 }
 
 /*footer*/
 #footer{
-    background-color: #00201a;
+    background-color: #06382f;
     color: #ccc;
 }
 #footer_inner{
