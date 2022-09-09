@@ -210,7 +210,7 @@ body{
     text-align: right;
     margin: 0 auto;
     width: 1320px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     margin-top: 50px;
 }
 .list select{
@@ -229,7 +229,7 @@ body{
 #tab1 ul, #tab3 ul{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 14px;
 }
