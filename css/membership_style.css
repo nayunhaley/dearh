@@ -199,7 +199,7 @@ body{
 .tab_content{
     margin: 0 auto;
     width: 1320px;
-    padding-bottom: 100px;
+    
 }
 .tab_content h1{
     padding-bottom: 20px;
@@ -208,6 +208,12 @@ body{
 
 
 /*tab_container tab1*/
+#tab1{
+    padding-bottom: 50px;
+}
+#tab2{
+    padding-bottom: 200px;
+}
 #tab1, #tab2{
     width: 1320px;
     margin: 0 auto;
